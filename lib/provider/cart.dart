@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CartProvider extends ChangeNotifier {
-  void addTocart(){
+  void addTocart() {
     //TODO:
+  }
+  void removeTotheCart() {
+    //remove section
   }
 }
