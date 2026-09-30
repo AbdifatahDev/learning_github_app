@@ -7,4 +7,7 @@ class CartProvider extends ChangeNotifier {
   void removeTotheCart() {
     //remove section
   }
+  void cartDetails() {
+    //cart details
+  }
 }
