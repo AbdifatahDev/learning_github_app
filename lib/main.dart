@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:learning_github_app/provider/screen_provider.dart';
 import 'package:learning_github_app/screens/home.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MultiProvider(
+      providers: [ChangeNotifierProvider.value(value: ScreenProvider())],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
