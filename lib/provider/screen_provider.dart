@@ -7,7 +7,7 @@ class ScreenProvider extends ChangeNotifier {
     print("total is: ${a + b}");
   }
 
-  void devision() {
-    print("total is: ${a / b}");
+  void subtract() {
+    print('total is: ${a - b}');
   }
 }
